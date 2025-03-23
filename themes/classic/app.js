@@ -69,7 +69,7 @@ function render(path){
 // 渲染 title
 function title(path){
     path = decodeURI(path);
-    $('title').html(document.siteName+' - '+path);
+    $('title').html(document.siteName+'  '+path);
 }
 
 // 渲染导航栏
